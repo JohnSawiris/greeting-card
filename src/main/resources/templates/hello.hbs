@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Hello Friend!</title>
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
-  </head>
-  <body>
+{{#partial "content"}}
     <!--It's useful to put a comment at the top of your hbs file to help you keep track of what is what when things get more complex.-->
     <h1>Hello From Afar</h1>
     <p>Dear Friend,</p>
@@ -15,5 +9,6 @@
     <p>Cheers,</p>
     <p>Travel Enthusiast Jane</p>
     <p><a href='/favorite_photos' >P.S. Check out my favorite travel photos here.</a></p>
-  </body>
-</html>
+{{/partial}}
+
+{{> layout.hbs }}
